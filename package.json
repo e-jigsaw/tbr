@@ -1,12 +1,14 @@
 {
+  "private": true,
   "name": "tbr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "next generation tumblr",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Takaya Kobayashi <y@kbys.tk>",
+  "license": "MIT",
+  "dependencies": {
+    "carlo": "^0.9.35",
+    "lit-html": "^0.14.0"
+  }
 }
