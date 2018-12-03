@@ -1,5 +1,7 @@
 import { html, render } from '/node_modules/lit-html/lit-html.js'
 
+const zpad = (n) => n.toString().length === 1 ? `0${n}` : n
+
 class TbrApp extends HTMLElement {
   constructor() {
     super()
@@ -11,7 +13,7 @@ class TbrApp extends HTMLElement {
   }
 
   dateToStr(date) {
-    return `${date.getFullYear()}${date.getMonth() + 1}${date.getDate()}`
+    return `${date.getFullYear()}${zpad(date.getMonth() + 1)}${zpad(date.getDate())}`
   }
 
   template() {
