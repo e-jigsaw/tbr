@@ -5,10 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Takaya Kobayashi <y@kbys.tk>",
   "license": "MIT",
   "dependencies": {
-    "carlo": "^0.9.35",
-    "lit-html": "^0.14.0"
+    "carlo": "^0.9.45",
+    "lit-html": "^1.1.0"
   }
 }
